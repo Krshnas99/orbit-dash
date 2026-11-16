@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.orbitdash.game'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.orbitdash.game'
+        minSdk 21        // Android 5.0 and newer
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+}
