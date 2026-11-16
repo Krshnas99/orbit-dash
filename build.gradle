@@ -1,0 +1,4 @@
+// Pinned toolchain: Gradle 8.9 + Android Gradle Plugin 8.5.2 + JDK 17 (no Kotlin, no libraries)
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+}
